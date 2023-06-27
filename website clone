@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+   .header{
+    background-color: antiquewhite;
+    text-decoration: none;
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    font-size: larger;
+    font-weight: bolder;
+    text-transform: capitalize;
+ 
+   }
+  
+   .ab>img{
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    position: absolute;
+}
+.ab{
+    text-align: center;
+    margin: 10%;
+  
+}
+
+  .con{
+    height: 50px;
+    width: 100%;
+    margin-top: 37%;
+  }
+  .left{
+    height: 50px;
+    width: 50%;
+    float: left;
+  }
+  .right{
+    height: 50px;
+    width: 50%;
+    float: right;
+  }
+  .cd{
+    height: 450px;
+    width: 100%;
+    margin-top: 35% ; 
+    font-size: large;
+    font-weight: bolder;
+    background-color:aliceblue;
+    
+}
+.cd>{
+      
+    height: 200px;
+    width: 30%;
+
+  }
+  .ef{
+    float: left;
+    border: 2px solid black;
+    margin-left: 4%;
+    text-align: center;
+  }
+  .gh{
+    float: left;
+    border: 2px solid black;
+    margin-left: 40px;
+    text-align: center;
+  }
+  .ij{
+    float: right;
+    border: 2px solid black;
+    margin-right: 5%;
+    text-align: center;
+  }
+  h5{
+    font-size: larger;
+    font-weight: bolder;
+    text-transform: capitalize;
+    margin-left: 4%;
+  }
+  h6{
+    font-size: larger;
+    font-weight: bolder;
+    text-transform: capitalize;
+  }
+  .kl{
+    background-color: lightskyblue;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1px;
+    width: 100%;
+
+  }
+  .mn{
+    margin-left: 7%;
+  }
+  .op{
+    margin-right: 20%;
+  }
+  .op input[type="text"]
+  {
+    width:100%;
+    border:2px solid black;
+    background-color: lightskyblue;
+  }
+  body input[type="submit"]
+  {
+    background-color: black;
+    color: white;
+  }
+  .qr{
+    /* padding: 10px; */
+    left:90%;
+    bottom:0px;
+    position: fixed;
+  }
+  .text{
+  height:80px;  
+  }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <a href="#">About</a>
+        <a href="#">services</a>
+        <a href="#">plans</a>
+        <a href="#">blogs</a>
+    </div>
+    <div class="ab">
+    <h1  style="font-size:small;">AMBITION IS THE FIRST STEP TOWARDS</h1>
+    <h2>SUCCESS</h2>
+    <h3>Now Available for Online Coaching</h3>
+    <img src="https://static.wixstatic.com/media/84770f_0cf5b6c1550a4b8c92f92f1064cc68de~mv2.jpg/v1/fill/w_1895,h_968,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/84770f_0cf5b6c1550a4b8c92f92f1064cc68de~mv2.jpg">
+    <input type="submit" value="Book now">
+    </div>
+
+    <br>
+    <div class="con">
+        <div class="left">
+          <p>______</p>
+          <h4>ABOUT ME</h4>
+        <p>I'm a paragraph. Click here to add your own text and edit me. It’s easy.
+          <br>Just click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. ​
+          This is a great space to write long text about your company and your services. You can use this space to go into a little more detail about your company. Talk about your team and what services you provide<br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita suscipit magni eos id minima doloribus corporis sunt at quas quo?</p>
+       <br>
+        <input type="submit" value="Read more">
+    </div>
+    <div class="right">
+        <img src="https://static.wixstatic.com/media/ea71bb_e7959a5be116482b9727a9be900d2d35~mv2_d_5454_3840_s_4_2.jpg/v1/fill/w_948,h_1074,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ea71bb_e7959a5be116482b9727a9be900d2d35~mv2_d_5454_3840_s_4_2.jpg" height="500px" width="800px">
+    </div>
+    </div>
+    <br>
+    <div class="cd">
+  
+       <p style="margin-left: 4%;">_______</p>
+       <h5>How I Can Help You</h5>
+        <div class="ef">
+            <a href="#">ONLINE Coaching</a>
+            <p>Use this area to describe one of your services.
+            </p>
+            <p>________________</p>
+            <p>Mon, Tue, Wed, Thu, Fri<br>
+              1 hr<br>
+              90 US dollars<br>
+              $90</p>
+            <input type="submit" value="Book it">
+        </div>
+        <div class="gh">
+            <a href="#">ONLINE Coaching</a>
+            <p>Use this area to describe one of your services.
+            </p>
+            <p>________________</p>
+            <p>Mon, Tue, Wed, Thu, Fri<br>
+              1 hr<br>
+              90 US dollars<br>
+              $90</p>
+            <input type="submit" value="Book it">
+        </div>
+        <div class="ij">
+            <a href="#">ONLINE Coaching</a>
+            <p>Use this area to describe one of your services.
+            </p>
+            <p>________________</p>
+            <p>Mon, Tue, Wed, Thu, Fri<br>
+              1 hr<br>
+              90 US dollars<br>
+              $90</p></p>
+            <input type="submit" value="Book it">
+        </div>
+         <br>
+      <input type="submit" value="More services" style="margin-left: 50%; margin-top: 4%;">
+    </div>
+    <div class="kl">
+      <div class="mn">
+        <p>____</p>
+        <h6>CONTACT</h6>
+      <p>500 Terry Francois Street<br>
+
+        San Francisco, CA 94158<br>
+        Tel: 123-456-7890<br>
+        Fax: 123-456-7890<br>
+        info@mysite.com</p>
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-youtube"></i>
+
+      </div>
+      <div class="op">
+        <table>
+          <form>
+            <tr><td>Enter Your Name:<input type="text"></td></tr><br>
+            <tr><td>Enter Your Email:<input type="text"></td></tr><br>
+            <tr><td>Enter Your Subject:<input type="text"></td></tr><br>
+            <tr><td>Message:<input class="text" type="text"></td></tr><br>
+            <tr><td><input type="submit"></td></tr>
+          </form>
+        </table>
+      </div>
+    </div>
+    <div class="qr">
+      <input  style="padding: 10px;"type="submit" value="Let's chat!">
+    </div>
+</body>
+</html>
